@@ -8,6 +8,6 @@ COPY package.json /home/kknock
 
 WORKDIR /home/kknock
 
-RUN chmod 750 index.js
+RUN sudo chmod 750 index.js
 RUN npm i
 RUN node index.js
