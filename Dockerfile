@@ -1,4 +1,4 @@
-FROM node:lastest
+FROM node:latest
 
 RUN useradd -mU kknock
 USER kknock
