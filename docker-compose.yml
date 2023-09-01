@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+    request-bin:
+        build: ./
+        ports:
+            - "12345:3001"
+          
