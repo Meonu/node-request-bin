@@ -9,4 +9,4 @@ COPY package.json /home/kknock
 WORKDIR /home/kknock
 
 RUN npm i
-RUN node index.js
+RUN node index.js &
