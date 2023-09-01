@@ -13,7 +13,5 @@ COPY package.json /home/kknock
 RUN npm i
 
 
-RUN useradd -mU kknock
-
 USER kknock
 ENTRYPOINT ["./run.sh"]
